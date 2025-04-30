@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HI HO let's go!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <button class="hamburger" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Let's talk</a></li>
+      </ul>
+      <a class="download-cv" href="cv.pdf" download>Download CV</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+    </div>
+  </section>
+
+  <section id="about">
+    <img src="assets/propic3.png">
+    <div class="about-text">
+      <h2>HI HO let's go!</h2>
+      <strong> "I have come here to chew bubblegum and Code... <br>and I'm all out of bubblegum."</h1>
+      </strong>
+      <p>
+        <br>
+        After 15 thrilling years in marketing, building digital experiences for top brands. <br>
+        I've now leveled up with full-stack development skills.  <br>
+        Blending code with creative strategy to craft smarter, sharper digital magic.  
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div>
+      <button onclick="filterProjects('all')">All</button>
+      <button onclick="filterProjects('web')">Websites</button>
+      <button onclick="filterProjects('apps')">Apps</button>
+    </div>
+    <div class="projects-container">
+      <div class="project-card" data-category="web">
+        <img src="assets/caesrstone.png" alt="Project 1">
+        <h3>Caesrstone new Website</h3>
+        <p>Marketing project management & UX-UI development</p>
+        <a href="https://www.caesarstone.co.il/" target="_blank">
+          <button>Check it out</button></a>      
+      </div>
+
+      <div class="project-card" data-category="apps, web">
+        <img src="assets/dominos.png" alt="Project 2">
+        <h3>Domino's new App & Website</h3>
+        <p>Marketing project management & UX-UI development</p>
+        <a href="https://www.dominos.co.il/" target="_blank"><button>Check it out</button></a> 
+      </div>
+
+      <div class="project-card" data-category="web">
+        <img src="assets/smartlist.webp" alt="Project 3  ">
+        <h3>List 4 Life</h3>
+        <p>Save your favourite Wrestling moments <br>(Code and design by me) </p>
+        <a href="https://example.com/project2" target="_blank"><button>Check it out</button></a>   
+      </div>
+
+      <div class="project-card" data-category="web">
+        <img src="assets/doordie.png" alt="Project 4">
+        <h3>Task Management App</h3>
+        <p>Code and design a sweet user-friendly interface for managing your tasks</p>
+        <a href="https://example.com/project2" target="_blank"><button>Check it out</button></a> 
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's talk</h2>
+    <p style="text-align: center; line-height: 1.8;">
+      <strong>Email:</strong> <a href="mailto:Eliavman@gmail.com">Eliavman@gmail.com</a><br>
+      <strong>Phone:</strong> +972-50-8554-308<br>
+    </p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/eliav.mendelsohn" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/pizzacrustcore/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/eliav-mendelsohn-49bb0313/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/PZABOY" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Eliav Mendelsohn. All rights reserved.</p>
+  </footer>
+</body>  
+
+</html>
