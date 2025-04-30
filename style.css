@@ -89,7 +89,7 @@ header {
 /* ========== HERO ========== */
 .hero {
   position: relative;
-  background: url('assets/hero.webp') no-repeat center center / cover;
+  background: url('assets/IMG/hero.webp') no-repeat center center / cover;
   height: 100vh;
   display: flex;
   align-items: center;
