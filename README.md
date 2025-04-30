@@ -6,7 +6,7 @@ This project showcases modern web technologies, animations, responsive design, a
 ---
 
 ## 🚀 Live Demo
-👉 [View the live site](https://your-deployed-site-link.com)
+👉 [View the live site]([https://your-deployed-site-link.com](https://pzaboy.github.io/My-portfolio-/))
 
 ---
 
@@ -22,11 +22,6 @@ This project showcases modern web technologies, animations, responsive design, a
 
 ---
 
-## 📸 Screenshots
-
-![screenshot](assets/screenshot.jpg)
-
----
 
 ## 📂 Folder Structure
 
@@ -54,11 +49,11 @@ Feel free to use, modify, and share with attribution. See [`LICENSE`](./LICENSE)
 I'm Eliav, a digital marketer turned front-end developer.  
 With 10+ years of experience working with global brands, I've combined storytelling and code to build web experiences that connect.
 
-[💼 LinkedIn](https://www.linkedin.com/in/your-profile) | [🌐 Website](https://yourpersonalwebsite.com)
+[💼 LinkedIn](https://www.linkedin.com/in/eliav-mendelsohn-49bb0313/) | [🌐 Website](https://pzaboy.github.io/My-portfolio-/)
 
 ---
 
 ## ⭐️ Show Your Support
 
 If you like this project, give it a ⭐ on GitHub  
-or [buy me a coffee ☕](https://www.buymeacoffee.com/eliav)!
+or [buy me a coffee ☕](https://buymeacoffee.com/eliav)!
