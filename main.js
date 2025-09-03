@@ -110,3 +110,22 @@ window.addEventListener('DOMContentLoaded', () => {
 
     type();
 });
+
+const cvLink =
+  document.querySelector('#cv-link') || 
+  document.querySelector('.download-cv') || 
+  document.querySelector('a[href="assets/files/EliavMendelsohnFullStackDeveloper.pdf"]'); // לפי href
+
+if (cvLink) {
+  cvLink.addEventListener('click', () => {
+    console.log('Downloading CV: EliavMendelsohnFullStackDeveloper.pdf');
+  });
+}
+
+document.querySelectorAll('.nav-links a').forEach(a => {
+  a.addEventListener('click', () => {
+    if (navLinks && navLinks.classList.contains('active')) {
+      navLinks.classList.remove('active');
+    }
+  });
+});
